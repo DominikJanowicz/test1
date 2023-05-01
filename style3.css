@@ -1,0 +1,258 @@
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+   font-family: 'Lato', sans-serif;
+   }
+   @keyframes apper{
+      0%{
+          opacity: 0;
+          transform: translateY(500px);
+      }
+      100%{
+      opacity: 2;
+      transform:translateY(-123px);
+      }
+      }
+      @keyframes apper2{
+          0%{
+              opacity: 0;
+              transform: translateY(-500px);
+          }
+          100%{
+          opacity: 2;
+          transform:translateY(123px);
+          }
+          }
+.pattern{
+
+   background-color: #252323;
+height: 609px;
+}
+.wrapper{
+
+width: 1250px;
+margin-left: auto;
+margin-right: auto;
+}
+.lol{
+
+   
+background-color: rgb(42, 43, 43);
+float: left;
+width: 250px;
+height:50px;
+text-align: center;
+padding: 20px;
+}
+.lol:hover{
+
+background-color: black;
+
+}
+
+.okey1{
+
+   display: block;
+
+float:left;
+
+}
+.okey{
+   color: aqua;
+   text-decoration: none;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   height: 50px;
+   animation: apper 3s 0.5 both;
+ 
+
+   
+
+}
+.okey2{
+   color: aqua;
+   text-decoration: none;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   height: 50px;
+   animation: apper2 3s 0.5 both;
+ 
+
+   
+
+}
+
+
+
+.ptaki1{
+
+width: 250px;
+color: aqua;
+float:left;
+opacity: 70%;
+
+}
+.ptaki1:hover{
+
+opacity:100%;
+
+}
+
+
+.ptaki2{
+
+background-image: url(img/obraz03.jpg);
+height: 400px;
+animation: apper 3s 0.5 both;
+}
+.ryby2{
+
+   background-image: url(img/obraz02.jpg);
+   height: 400px;
+   animation: apper2 3s 0.5 both;
+   }
+   .ssaki2{
+
+      background-image: url(img/obraz01.jpg);
+      height: 400px;
+      animation: apper 3s 0.5 both;
+      }
+      .płazy2{
+
+         background-image: url(img/obraz04.jpg);
+         height: 400px;
+         animation: apper2 3s 0.5 both;
+         }
+         .widoki2{
+            height: 400px;
+            background-image: url(img/obraz05.jpg);
+            animation: apper 3s 0.5 both;
+            }
+            .container{
+
+
+               margin-right:auto;
+               margin-left:auto;
+               
+               height: 140px;
+               padding:5px;
+               
+               }
+               .border{
+                  margin-top:5px;
+                  margin-bottom:10px;
+                  border-bottom:4px solid rgb(159, 236, 15);
+              
+              }
+               .women{
+                margin-top: 40px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               background-size: cover;
+               background-position: center;
+               
+               }    
+               .description { 
+               
+                   
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   color: aqua;
+                   margin-left: auto;
+               margin-right: auto;
+                   
+                   background-size: cover;
+                   background-position: center;
+               }
+               .footer{
+                  color: aqua;
+               background-color: black;
+               
+               display: flex;
+               justify-content: center;
+               }
+               .okey10{
+
+                  display: block;
+               
+               float:left;
+               
+               }
+               .okey0{
+                  color: aqua;
+                  text-decoration: none;
+                  letter-spacing: 2px;
+                  text-transform: uppercase;
+                  height: 50px;
+      
+               }
+               .okey20{
+                  color: aqua;
+                  text-decoration: none;
+                  letter-spacing: 2px;
+                  text-transform: uppercase;
+                  height: 50px;
+                 
+               }
+               .sticky{
+
+
+width: 100%;
+position:fixed;
+left:0;
+top:0;
+z-index:100;
+
+               }
+               .scrollup{
+
+width: 64px;
+height: 64px;
+
+text-decoration: none;
+position:fixed;
+top:50px;
+
+
+              }
+.jedziesz{
+
+width: 1250px;
+height: 1000px;
+background-color: azure;
+}
+
+
+              .tytuły{
+
+
+text-transform: uppercase;
+
+text-align: center;
+
+color: rgb(168, 180, 3);
+margin-left: auto;
+margin-right: auto;
+margin-top: 190px;
+
+              }
+              .photo{
+width: 625px;
+text-align: center;
+margin-top:0px;
+float: left; 
+margin-top:40px;        
+              
+              }
+              .opis {
+               text-align: left;
+               width: 625px;
+               float: left;
+               color: rgb(168, 180, 3);
+               text-align: justify;
+               margin-top:40px;
+              }
+              

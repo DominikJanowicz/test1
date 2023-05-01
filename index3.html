@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl,en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+    <title>Niesamowita natura</title>
+
+</head>
+<body>
+  
+    <div class="pattern">
+        <div class="wrapper">
+
+
+
+            <div class="nav">
+            <a href="ptaki.html"  target="_blank" class="okey1">    <div class="lol">     <div class="okey"> ptaki</div> </div></a> 
+            <a href="ryby.html" target="_blank" class="okey1">    <div class="lol">    <div class="okey2">ryby</div> </div> </a> 
+            <a href="ssaki.html" target="_blank" class="okey1"> <div class="lol">    <div class="okey">ssaki</div> </div> </a> 
+            <a href="płazy.html" target="_blank" class="okey1"><div class="lol">    <div class="okey2">płazy</div> </div></a> 
+            <a href="widoki.html" target="_blank" class="okey1">  <div class="lol">    <div class="okey">widoki</div> </div> </a> 
+          </div>
+          
+          
+            <div style="clear:both;"></div>
+            <div class="ptaki1">  <a href="ptaki.html" target="_blank"> <div class="ptaki2"></div> </div> </a>
+            <div class="ptaki1">   <a href="ryby.html" target="_blank"> <div class="ryby2"></div> </div> </a>
+            <div class="ptaki1">   <a href="ssaki.html" target="_blank"> <div class="ssaki2"></div> </div> </a>
+            <div class="ptaki1">    <a href="płazy.html" target="_blank"> <div class="płazy2"></div> </div></a>
+            <div class="ptaki1">   <a href="widoki.html" target="_blank"> <div class="widoki2"></div> </div> </a>
+
+
+        </div>
+        <div style="clear:both;">
+        <div class="container">
+            <div class="border"></div>
+                
+                <div class="description">
+                    <div class="women">
+                        
+                    <p >Strona internetowa poświęcona jest pokazaniu piękna dzikiej natury. <i class="icon-home"></i></p>
+                   
+                </div>
+                
+                </div>
+              
+
+
+            </div>
+            
+<div class="footer">
+2023&copy;Dominik Janowicz,nie palcie marihuany.
+</div>
+
+
+    </div>
+</div>
+
+
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script src="index.js"></script>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+</body>
+</html>
